@@ -1,0 +1,51 @@
+.memelist{
+    position: relative;
+    text-align: center;
+    width: 50%;
+    padding: 50px;
+    color: white;
+    font-size: 3rem;
+    font: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-group-override{
+    width: 50%;
+}
+
+.top{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bot{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.delete{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    color: black;
+    display: none;
+    transform: translate(-50%, -50%);
+}
+
+img{
+    margin: 30 0 30;
+    top:50%;
+    left:50%;
+}
+
+.memelist:hover img{
+    opacity: 0.3;
+}
+
+.memelist:hover .delete{
+    display: block;
+}
